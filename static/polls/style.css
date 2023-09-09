@@ -1,0 +1,82 @@
+body {
+    background: white url("images/back2.jpg") no-repeat;
+    background-size: cover;
+    height: 700px;
+    width:fit-content;
+    
+}
+span .red-color{
+    color:red;
+}
+
+#A{
+    height:100px;
+    width:600px;
+    background-color: yellowgreen;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 450px;
+    margin-top: 10px;
+    line-height: 15px;
+
+}
+
+#B{
+    margin-left: 200px;
+    color:white;
+    
+}
+
+#A h2{
+    position: relative;
+    animation: text 3s 1;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes text {
+
+    0%{
+        margin-left: 20px;
+
+    }
+    30%{
+        letter-spacing: 10px;
+       
+    }
+    85%{
+        letter-spacing: 6px;
+      
+        margin-right: 20px;
+    }
+    
+}
+
+td a{
+   
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+
+th, td{
+    text-align: center;
+}
+
+
+
+.C{
+    float: left;
+    margin-left: 400px;
+    margin-bottom: 100px;
+
+    
+}
+
+
+
+
