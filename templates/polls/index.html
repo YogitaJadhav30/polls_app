@@ -66,16 +66,16 @@
 </tbody>
 </table>
        
-        <div class="C">
-            <a href="{% url 'polls:form' %}"><button class="btn btn-primary ms-5 w-100">Add New Question</button></a>
-         
-        </div>
+       
         
      
     {% else %}
         <p>No polls are available.</p>
     {% endif %}  
-
+    <div class="C">
+        <a href="{% url 'polls:form' %}"><button class="btn btn-primary ms-5 w-100">Add New Question</button></a>
+     
+    </div>
 
 <!-- Jquery part for delete confirmation -->
     <!-- <script>
